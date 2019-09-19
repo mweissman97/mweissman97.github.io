@@ -1,4 +1,4 @@
-"beauty.png"
+<img src="beauty.png">
 
 ---
 permalink: /
