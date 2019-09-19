@@ -3,15 +3,16 @@ main:
 #  - title: "Publications"
 #    url: /publications/
 
-  - title: "Outreach"
-    url: /outreach/      
-    
   - title: "Research"
     url: /research/
-        
+
+  - title: "Outreach"
+    url: /outreach/      
+ 
+  - title: "CV"
+    url: /cv/
+    
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "CV"
-    url: /cv/
     
