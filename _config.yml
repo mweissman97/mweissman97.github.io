@@ -84,7 +84,7 @@ author:
   avatar           : "mwprofile.jpg"
   bio              : "PhD Student at Brown University and member of the Weinreich Lab."
   location         : "Brown University"
-  employer         : "https://www.brown.edu/research/labs/weinreich/"
+  employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "maya_weissman@brown.edu"
