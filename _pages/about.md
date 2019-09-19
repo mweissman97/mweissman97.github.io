@@ -1,4 +1,3 @@
-"<img src='/images/beauty.png'>"
 ---
 permalink: /
 title: "About Me"
