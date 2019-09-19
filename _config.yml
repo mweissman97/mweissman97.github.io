@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Maya Weissman"
   avatar           : "mwprofile.jpg"
-  bio              : "Member of the Weinreich Lab using computational methods to study the evolution of modifiers of the fidelity of genetic information transmission."
+  bio              : "PhD Student at Brown University and member of the Weinreich Lab."
   location         : "Brown University"
-  employer         :
+  employer         : "https://www.brown.edu/research/labs/weinreich/"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "maya_weissman@brown.edu"
