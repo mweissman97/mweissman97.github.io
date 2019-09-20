@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a computational biologist and first year PhD student in the [Brown Ecology and Evolutionary Biology program](https://www.brown.edu/academics/ecology-and-evolutionary-biology/) and a member of the [Weinreich Lab](https://www.brown.edu/research/labs/weinreich/). 
+I am a computational biologist and first year PhD student in the [Weinreich Lab](https://www.brown.edu/research/labs/weinreich/). 
 
 I am broadly interested in using mathematical and biological toolsets in order to explore questions of evolution. I am currently working on computational methods to model the evolution of modifiers of the fidelity of genetic information transmission within and between organisms.
 
