@@ -11,7 +11,9 @@ This model is a **compartment model**, which means it treats everyone in a popul
 These dynamics are represented with the following equations:
 
 dS/dt = -B * I * S/N
+
 dI/dt = B * I * S/N - v * I
+
 dR/dt = v * I
 
 Where S represents the total Susceptible population, I is the total Infected population, and R is the Removed population, which includes everyone who has either died or achieved immunity after recovering.
