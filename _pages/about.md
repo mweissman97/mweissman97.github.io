@@ -1,5 +1,3 @@
-[<img src='/images/beauty.png'>](https://xkcd.com/877/)
-
 ---
 permalink: /
 title: "About Me"
@@ -8,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+[<img src='/images/beauty.png'>](https://xkcd.com/877/)
 
 I am a computational biologist and first year PhD student in the [Weinreich Lab](https://www.brown.edu/research/labs/weinreich/). 
 
