@@ -17,7 +17,7 @@ Previously, I graduated with my B.S. from San Diego State University, where I st
 
 # Visualizing Math Modeling
 
-As a tactile and visual learner, I want to make math modeling more accessible to everyone. You can find a collection of interactive tools that are geared at explaining various topics in biological math modeling on my site. Selected topics include:
+As a tactile and visual learner, I want to make math modeling more accessible to everyone. You can find a collection of interactive tools that are geared at explaining various topics in biological math modeling on the [outreach](https://mweissman97.github.io/outreach/) tab. Selected topics include:
 * [Epidemiology](https://mweissman97.github.io/outreach/1-sir/)
 * [Population Genetics](https://mweissman97.github.io/outreach/2-popgen1/)
 * [Coral Reef Microbiome Dynamics](https://mweissman97.github.io/outreach/3-coral/)
