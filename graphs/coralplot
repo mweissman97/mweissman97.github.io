@@ -19,8 +19,8 @@ app.layout = html.Div([
         min=5,
         max=35,
         value=20,
-        marks={str(mean): str(mean) for mean in df['mean'].unique()},
-        step=None
+        marks={5, 20, 35},
+        step=15
     )
 ])
 
