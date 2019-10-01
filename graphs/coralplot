@@ -1,25 +1,37 @@
-import numpy as np
+import os
+
+import dash
+import dash_core_components as dcc
+import dash_html_components as html
 import pandas as pd
+import plotly.graph_objs as go
 
-import plotly.graph_objects as go
-from ipywidgets import widgets
+from app import app
 
-df = pd.read_csv('coraltemp.csv')
+c20 = pd.read_csv('c20.csv')
+c10 = pd.read_csv('c10.csv')
+c30 = pd.read_csv('c30.csv')
 
-mean = widgets.IntSlider(
-    value=20.0,
-    min=5.0,
-    max=35.0,
-    step=5.0,
-    description='Temperature Mean:',
-    continuous_update=False
-)
+mean = dash.Dash(__mean__, external_stylesheets=external_stylesheets)
+mean.layout = html.Div([
+    dcc.Slider(
+        id='mean',
+        min=10,
+        max=30,
+        step=10,
+        value=20,
+    ),
+    html.Div(id='slider-output-container')
+])
 
-amp = widgets.IntSlider(
-    value=6.0,
-    min=0.0,
-    max=12.0,
-    step=3.0,
-    description='Temperature Amplitude:',
-    continuous_update=False
-)
+amp = dash.Dash(__amp__, external_stylesheets=external_stylesheets)
+amp.layout = html.Div([
+    dcc.Slider(
+        id='amp',
+        min=0,
+        max=12,
+        step=6,
+        value=6,
+    ),
+    html.Div(id='slider-output-container')
+])
