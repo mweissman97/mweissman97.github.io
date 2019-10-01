@@ -30,7 +30,7 @@ If the abundance of Cyanobacteria is closely linked to temperature, then we can 
 
 The easiest way to measure the effect of temperature on the infection is by measuring how quickly it takes for the infection to reach its peak. Knowing how quickly the infection would take to destroy a single coral animal is important to conservation efforts. By predicting how quickly the infection will take as a function of temperature, the scientists monitoring these reefs can make decisions about how often they need to check the reefs for signs of disease.
 
-*insert image here*
+<img src='/images/bbdtemp.png'>
 
 The graph above shows the time to peak infection in days using colors. The yellow bands are moving very slowly, while the darker blue bands move more quickly. We can see that high temperature means and low temperature amplitudes help the infection move more quickly. The difference between those two speeds is almost a full month; a full month that scientists could be using to save those reefs.
 
