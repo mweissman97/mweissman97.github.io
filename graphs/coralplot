@@ -1,0 +1,25 @@
+import numpy as np
+import pandas as pd
+
+import plotly.graph_objects as go
+from ipywidgets import widgets
+
+df = pd.read_csv('coraltemp.csv')
+
+mean = widgets.IntSlider(
+    value=20.0,
+    min=5.0,
+    max=35.0,
+    step=5.0,
+    description='Temperature Mean:',
+    continuous_update=False
+)
+
+amp = widgets.IntSlider(
+    value=6.0,
+    min=0.0,
+    max=12.0,
+    step=3.0,
+    description='Temperature Amplitude:',
+    continuous_update=False
+)
