@@ -1,6 +1,7 @@
 ---
+layout: archive
 permalink: /
-title: <img src='/images/about.png' width='1500'>
+title: <img src='/images/about.png'>
 author_profile: true
 redirect_from: 
   - /about/
