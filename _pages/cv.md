@@ -1,13 +1,11 @@
 ---
 layout: archive
-title: "CV"
+title: <img src='/images/cv.png'>
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
-
-<img src='/images/cv.png'>
 
 {% include base_path %}
 
