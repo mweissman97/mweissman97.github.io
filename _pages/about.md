@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<img src='/images/about.png'>
+<img src='/images/about.png' width="1500">
 
 I am a computational biologist and first year PhD student in the [Weinreich Lab](https://www.brown.edu/research/labs/weinreich/). 
 
