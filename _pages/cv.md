@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+<img src='/images/cv.png'>
+
 {% include base_path %}
 
 Education
