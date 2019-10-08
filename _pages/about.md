@@ -1,13 +1,11 @@
 ---
 permalink: /
-title: ""
+title: <img src='/images/about.png'>
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-<img src='/images/about.png' width="1500">
 
 I am a computational biologist and first year PhD student in the [Weinreich Lab](https://www.brown.edu/research/labs/weinreich/). 
 
