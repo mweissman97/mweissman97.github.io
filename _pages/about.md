@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: <img src='/images/about.png'>
+title: <img src='/images/about.png' width='1500'>
 author_profile: true
 redirect_from: 
   - /about/
