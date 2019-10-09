@@ -1,6 +1,7 @@
 ---
-title: "Modeling HIV Dynamics"
-excerpt: "Modeling pharmacodynamics on HIV latent infection in the face of resistance <br/><img src='/images/hivheader.png'>"
+title: "HIV Pharmacodynamics"
+excerpt: "<br/><img src='/images/hivheader.png'> 
+Modeling pharmacodynamics on HIV latent infection in the face of resistance"
 collection: portfolio
 ---
 
