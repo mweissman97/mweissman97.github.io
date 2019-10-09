@@ -1,6 +1,6 @@
 ---
 title: "Modeling the Coral Reef Microbiome"
-excerpt: "<br/><img src='/images/coralheader.png'>
+excerpt: "<img src='/images/coralheader.png'> <br/>
 Mathematically modeling microbiome composition as a function of temperature"
 collection: portfolio
 ---
