@@ -1,6 +1,6 @@
 ---
 title: "Stochastic Noise"
-excerpt: "Modeling the evolution of modifiers of the fidelity of genetic information transmission <br/><img src='/images/noiseheader.png'>"
+excerpt: "<br/><img src='/images/noiseheader.png'> Modeling the evolution of stochastic noise, a modifier of the fidelity of genetic information transmission"
 collection: portfolio
 ---
 
