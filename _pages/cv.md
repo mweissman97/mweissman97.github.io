@@ -12,6 +12,7 @@ redirect_from:
 Education
 ======
 * B.S. in Cellular and Molecular Biology, San Diego State University, 2019
+  * Minor in Mathematics
 * PhD in Ecology and Evolutionary Biology, Brown University, Expected 2024
 
 Relevant Experience
