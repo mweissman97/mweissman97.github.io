@@ -1,17 +1,11 @@
 ---
-permalink: /non-menu-page/
-title: "Page not in menu"
-excerpt: "This is a page not in th emain menu"
+layout: archive
+permalink: /
+title: <img src='/images/5stars.png'>
 author_profile: true
 redirect_from: 
-  - "/nmp/"
-  - "/nmp.html"
+  - /about/
+  - /about.html
 ---
 
-This is a page not in the menu. You can use markdown in this page.
-
-Heading 1
-======
-
-Heading 2
-======
+I love you my Karl.
