@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /
+permalink: mayalovekarl
 title: <img src='/images/5stars.png'>
 author_profile: true
 redirect_from: 
