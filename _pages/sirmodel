@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<html>
-<head>
 <link rel="stylesheet" type="text/css" href="../scripts/mainstyle.css" />
 <script language="javascript" type="text/javascript" src="../scripts/flot/jquery.js"></script>
 <script language="javascript" type="text/javascript" src="../scripts/flot/jquery.flot.js"> </script>
@@ -166,5 +164,3 @@ Days: <input type="text" name="iters" size = 6 /><br/>
 </tr>
 <tr><td>&nbsp</td><td><center>Time (days)</center></td><td>&nbsp</td></tr>
 </table>
-
-</html>
