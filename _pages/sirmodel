@@ -1,0 +1,170 @@
+---
+layout: archive
+permalink: sirmodel
+title: "The S-I-R Model Simulator"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../scripts/mainstyle.css" />
+<script language="javascript" type="text/javascript" src="../scripts/flot/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="../scripts/flot/jquery.flot.js"> </script>
+<script language="javascript" type="text/javascript" src="../scripts/odesim.js"> </script>
+<!--[if IE]><script language="javascript" type="text/javascript" src="../scripts/flot/excanvas.js"> </script><![endif]-->
+
+<script type="text/javascript">
+//** Parameters **
+stp = .01; //step size
+
+//** Function **
+function sir(x,parm)
+{
+  return([-parm[0]*x[0]*x[1]/(x[0]+x[1]+x[2]),parm[0]*x[0]*x[1]/(x[0]+x[1]+x[2]) - parm[1]*x[1],parm[1]*x[1]]);
+}
+</script>
+<script type='text/javascript'>
+function testload()
+{
+  alert('page loaded again');
+};
+
+function getCookie(c_name)
+{
+if (document.cookie.length>0)
+  {
+  c_start=document.cookie.indexOf(c_name + "=");
+  if (c_start!=-1)
+    {
+    c_start=c_start + c_name.length+1;
+    c_end=document.cookie.indexOf(";",c_start);
+    if (c_end==-1) c_end=document.cookie.length;
+    return unescape(document.cookie.substring(c_start,c_end));
+    }
+  }
+return "";
+}
+
+function setCookie(c_name,value,expiredays)
+{
+var exdate=new Date();
+exdate.setDate(exdate.getDate()+expiredays);
+document.cookie=c_name+ "=" +escape(value)+((expiredays==null) ? "" : "; expires="+exdate.toGMTString());
+}
+
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+
+
+function setvals(form)
+{
+var res = new Array();
+res[0] = eval(form.Alpha.value);
+res[1] = eval(form.Beta.value);
+res[2] = eval(form.initialS.value);
+res[3] = eval(form.initialI.value);
+res[4] = eval(form.initialR.value);
+res[5] = 100*eval(form.iters.value)
+//alert(res)
+setCookie('testval4',res,1);
+};
+
+function checkCookie()
+{
+var res = new Array()
+val=getCookie('testval4');
+if (val!=null && val!="")
+  {
+    res = val;
+  }
+else
+  {
+    res[0] = 3;
+    res[1] = 2;
+    res[2] = 100;
+    res[3] = 1;
+    res[4] = 0;
+    res[5] = 50;
+    document.forms["mainform"].elements["Alpha"].value = res[0];
+    document.forms["mainform"].elements["Beta"].value = res[1];
+    document.forms["mainform"].elements["initialS"].value = res[2];
+    document.forms["mainform"].elements["initialI"].value = res[3];
+    document.forms["mainform"].elements["initialR"].value = res[4];
+    document.forms["mainform"].elements["iters"].value = res[5]/100;
+    setCookie('testval4',res,1);
+  }
+  return(res)
+};
+</script>
+
+</head>
+<body onLoad="checkCookie()">
+<center>
+<div class="header">
+<div class='hans'>Hans Nesse - Global Health - SIR Model</div><br>
+<hr>
+<div class='navlinks'>
+<a href='../index.html'>Hans</a>
+<a href='globalhealth-SPR10.html'>Class</a>
+<a href='http://my.asu.edu'>MyASU</a>
+</div>
+</div>
+</center>
+
+<script id="source" language="javascript" type="text/javascript">
+$(function () {
+    var pv = eval("["+getCookie('testval4')+"]");
+    document.forms["mainform"].elements["Alpha"].value = pv[0];
+    document.forms["mainform"].elements["Beta"].value = pv[1];
+    document.forms["mainform"].elements["initialS"].value = pv[2];
+    document.forms["mainform"].elements["initialI"].value = pv[3];
+    document.forms["mainform"].elements["initialR"].value = pv[4];
+    document.forms["mainform"].elements["iters"].value = pv[5]/100;
+    var valu = rk4(sir,[pv[0],pv[1]],.01,[0,pv[2],pv[3],pv[4]],pv[5]);
+    var d1 = valu[1];
+    var d2 = valu[2];
+    var d3 = valu[3];
+    var data = [ {label:'S', data:d1}, {label:'I', data:d2}, {label:'R', data:d3}];
+    $.plot($("#placeholder"), data);
+});
+</script>
+
+
+<table cellpadding=8 border=0>
+<tr>
+<td>
+<img src='population.png' alt='Population graph label'>
+</td>
+<td>
+<div id="placeholder" style="width:400px;height:300px"></div>
+</td>
+<td valign='top'>
+<form name='mainform'> <div class='labeled'>Beta:<span>Beta controls the rate of infection spreads, per contact between infected and non-infected, per unit time.</span></div> <input type='text' name='Alpha' id='alpha' size = 4 /><br/>
+<div class='labeled'>Nu: <span>Nu controls the rate infected individuals move into the recovered phase.</span></div><input type='text' name='Beta' size = 4 />
+<br/>
+<br/>
+Initial
+&nbsp&nbsp <table><tr><td>Susceptible:</td><td><input type="text" name="initialS" size = 4 /></td></tr>
+<tr><td> Infected: </td><td><input type="text" name="initialI" size = 4 /></td></tr>
+<tr><td> Recovered: </td><td><input type="text" name="initialR" size = 4 /></td></tr>
+</table>
+Days: <input type="text" name="iters" size = 6 /><br/>
+<input type="submit" value="Submit" onclick='setvals(this.form)'/>
+</form>
+</td>
+</tr>
+<tr><td>&nbsp</td><td><center>Time (days)</center></td><td>&nbsp</td></tr>
+</table>
+
+</html>
