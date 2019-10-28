@@ -127,7 +127,23 @@ $(function () {
 <td>
 <center>Population</center></td>
 <td>
-<div $.plot($("#placeholder"), data) style="width:400px;height:300px"></div>
+<script id="source" language="javascript" type="text/javascript">
+$(function () {
+    var pv = eval("["+getCookie('testval4')+"]");
+    document.forms["mainform"].elements["Alpha"].value = pv[0];
+    document.forms["mainform"].elements["Beta"].value = pv[1];
+    document.forms["mainform"].elements["initialS"].value = pv[2];
+    document.forms["mainform"].elements["initialI"].value = pv[3];
+    document.forms["mainform"].elements["initialR"].value = pv[4];
+    document.forms["mainform"].elements["iters"].value = pv[5]/100;
+    var valu = rk4(sir,[pv[0],pv[1]],.01,[0,pv[2],pv[3],pv[4]],pv[5]);
+    var d1 = valu[1];
+    var d2 = valu[2];
+    var d3 = valu[3];
+    var data = [ {label:'S', data:d1}, {label:'I', data:d2}, {label:'R', data:d3}];
+    $.plot($("#placeholder"), data);
+});
+</script>
 </td>
 <td valign='top'>
 <form name='mainform'> <div class='labeled'>Beta: <span>(rate people get sick)</span></div> <input type='text' name='Alpha' id='alpha' size = 4 /><br/>
