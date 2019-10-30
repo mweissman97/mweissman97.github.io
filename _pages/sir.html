@@ -18,7 +18,7 @@ author_profile: true
 <script type='text/javascript'>
 //** Parameters **
 stp = .01; //step size
-
+console.log('Hello Maya!!!')
 //** Function **
 function sir(x,parm)
 {
@@ -82,7 +82,9 @@ setCookie('testval4',res,1);
 function checkCookie()
 {
 var res = new Array()
+console.log('Trying to getCookies!!!!')
 val=getCookie('testval4');
+console.log('Failed to getCookies!!!!')
 if (val!=null && val!="")
   {
     res = val;
