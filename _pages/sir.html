@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "S-I-R Model Simulator"
+title: "S-I-R Model Simulatr"
 permalink: /sir/
 author_profile: true
 ---
@@ -9,13 +9,13 @@ author_profile: true
 <html>
 <head>
 <title>SIR Model</title>
-<link rel="stylesheet" type="text/css" href="/scripts/mainstyle.css" />
-<script language="javascript" type="text/javascript" src="/scripts/flot/jquery.js"></script>
-<script language="javascript" type="text/javascript" src="/scripts/flot/jquery.flot.js"> </script>
-<script language="javascript" type="text/javascript" src="/scripts/odesim.js"> </script>
+<link rel='stylesheet' type='text/css' href='/scripts/mainstyle.css' />
+<script language='javascript' type='text/javascript' src='/scripts/flot/jquery.js'></script>
+<script language='javascript' type='text/javascript' src='/scripts/flot/jquery.flot.js'> </script>
+<script language='javascript' type='text/javascript' src='/scripts/odesim.js'> </script>
 <!--[if IE]><script language="javascript" type="text/javascript" src="../scripts/flot/excanvas.js"> </script><![endif]-->
 
-<script type="text/javascript">
+<script type='text/javascript'>
 //** Parameters **
 stp = .01; //step size
 
@@ -187,7 +187,7 @@ This program runs on your computer, so some computers may run faster than others
 <p><b>Details:</b><br/>
 This is an ordinary differential equation model, described by the following equation:<br/>
 <center>
-<img src="/images/sireqn.png" alt="derivative of S with respect to t equals " />
+<img src='/images/sireqn.png' alt="derivative of S with respect to t equals " />
 </center>
 The simulation uses the fourth-order Runge-Kutta algorithm to solve it numerically, with a step size fixed at 0.01, written in JavaScript. The plotting methods are from the <a href="http://code.google.com/p/flot/">flot module.</a>  Both the ode simulation and the script in this page calling it are new, so there may still be some unanticipated bugs (I am also fairly new to the language, so my code may be inefficient or bizarre in places).  Internet Explorer may have a different look than other browsers, since it has not yet adopted the <i>canvas</i> element, which is used in plotting.</p>
 
