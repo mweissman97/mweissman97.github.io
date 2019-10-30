@@ -114,7 +114,7 @@ else
 <div class='hans'>Hans Nesse - Global Health - SIR Model</div><br>
 <hr>
 <div class='navlinks'>
-<a href='../index.html'>Hans</a>
+<a href='/index.html'>Hans</a>
 <a href='globalhealth-SPR10.html'>Class</a>
 <a href='http://my.asu.edu'>MyASU</a>
 </div>
@@ -143,7 +143,7 @@ $(function () {
 <table cellpadding=8 border=0>
 <tr>
 <td>
-<img src='population.png' alt='Population graph label'>
+<img src='/images/population.png' alt='Population graph label'>
 </td>
 <td>
 <div id="placeholder" style="width:400px;height:300px"></div>
@@ -187,7 +187,7 @@ This program runs on your computer, so some computers may run faster than others
 <p><b>Details:</b><br/>
 This is an ordinary differential equation model, described by the following equation:<br/>
 <center>
-<img src="sireqn.png" alt="derivative of S with respect to t equals " />
+<img src="/images/sireqn.png" alt="derivative of S with respect to t equals " />
 </center>
 The simulation uses the fourth-order Runge-Kutta algorithm to solve it numerically, with a step size fixed at 0.01, written in JavaScript. The plotting methods are from the <a href="http://code.google.com/p/flot/">flot module.</a>  Both the ode simulation and the script in this page calling it are new, so there may still be some unanticipated bugs (I am also fairly new to the language, so my code may be inefficient or bizarre in places).  Internet Explorer may have a different look than other browsers, since it has not yet adopted the <i>canvas</i> element, which is used in plotting.</p>
 
