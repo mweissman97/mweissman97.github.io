@@ -18,21 +18,24 @@ author_profile: true
 <script type='text/javascript'>
 //** Parameters **
 stp = .01; //step size
-console.log('Hello Maya!!!')
+console.log('Hello Maya!!!');
 //** Function **
 function sir(x,parm)
 {
+  console.log('run sir');
   return([-parm[0]*x[0]*x[1]/(x[0]+x[1]+x[2]),parm[0]*x[0]*x[1]/(x[0]+x[1]+x[2]) - parm[1]*x[1],parm[1]*x[1]]);
 }
 </script>
 <script type='text/javascript'>
 function testload()
 {
+  console.log('testLoad');
   alert('page loaded again');
 };
 
 function getCookie(c_name)
 {
+console.log('getCookie');
 if (document.cookie.length>0)
   {
   c_start=document.cookie.indexOf(c_name + "=");
@@ -49,12 +52,14 @@ return "";
 
 function setCookie(c_name,value,expiredays)
 {
+console.log('setCookie');
 var exdate=new Date();
 exdate.setDate(exdate.getDate()+expiredays);
 document.cookie=c_name+ "=" +escape(value)+((expiredays==null) ? "" : "; expires="+exdate.toGMTString());
 }
 
 function createCookie(name,value,days) {
+    console.log('createCookies');
 	if (days) {
 		var date = new Date();
 		date.setTime(date.getTime()+(days*24*60*60*1000));
@@ -68,6 +73,7 @@ function createCookie(name,value,days) {
 
 function setvals(form)
 {
+console.log('setvals');
 var res = new Array();
 res[0] = eval(form.Alpha.value);
 res[1] = eval(form.Beta.value);
@@ -82,9 +88,9 @@ setCookie('testval4',res,1);
 function checkCookie()
 {
 var res = new Array()
-console.log('Trying to getCookies!!!!')
+console.log('Trying to getCookies!!!!');
 val=getCookie('testval4');
-console.log('Failed to getCookies!!!!')
+console.log('Failed to getCookies!!!!');
 if (val!=null && val!="")
   {
     res = val;
