@@ -43,7 +43,7 @@ var allfill = [ganache, creamy, caramel, frozen, fruit]
 
 function shell() {
   var numshell = Math.floor(Math.random() * (sweetshell.length));
-  document.getElementById('macdisplay').innerHTML = sweetchell[numshell);
+  document.getElementById('macdisplay').innerHTML = sweetshell[numshell);
 }
 
   
