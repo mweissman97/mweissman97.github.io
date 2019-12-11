@@ -42,7 +42,7 @@ var fruit = [
 var allfill = [ganache, creamy, caramel, frozen, fruit]
 
 function macaron() {
-  var numshell = Math.floor(Math.random() * allshell.length));
-  var numfill = Math.floor(Math.random() * allfillll.length));
-  document.getElementById('macdisplay').innerHTML = allshell[numshell] + ' ' + allfill[numfill];
+  var numshell = Math.floor(Math.random() * sweetshell.length));
+  var numfill = Math.floor(Math.random() * creamy.length));
+  document.getElementById('macdisplay').innerHTML = sweetshell[numshell] + ' ' + creamy[numfill];
 }
