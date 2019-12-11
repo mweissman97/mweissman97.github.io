@@ -44,6 +44,8 @@ var allfill = [ganache, creamy, caramel, frozen, fruit]
 function macaron() {
   var numshell = Math.floor(Math.random() * (sweetshell.length));
   var numfill = Math.floor(Math.random() * (creamy.length));
-  var macout = sweetshell[numshell].concat(creamy[numfill])
+  var shellout = sweetshell[numshell];
+  var fillout = creamy[numfill];
+  var macout = shellout.concat(" shell ", fillout);
   document.getElementById('macdisplay').innerHTML = macout;
 }
