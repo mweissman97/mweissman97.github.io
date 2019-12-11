@@ -46,6 +46,6 @@ function macaron() {
   var numfill = Math.floor(Math.random() * (creamy.length));
   var shellout = sweetshell[numshell];
   var fillout = creamy[numfill];
-  var macout = shellout.concat(" shell ", fillout);
+  var macout = shellout+" shell "+fillout;
   document.getElementById('macdisplay').innerHTML = macout;
 }
