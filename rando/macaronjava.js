@@ -45,9 +45,3 @@ function shell() {
   var numshell = Math.floor(Math.random() * (sweetshell.length));
   document.getElementById('macdisplay').innerHTML = sweetshell[numshell);
 }
-
-  
-function fill() {
-  var numfill = Math.floor(Math.random() * (creamy.length));
-  document.getElementById('macdisplay1').innerHTML = creamy[numfill);
-}
