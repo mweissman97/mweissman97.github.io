@@ -8,7 +8,7 @@ var savoryshell = [
   'parsley', 'saffron', 'pink peppercorn', 'black pepper', 'ancho chile', 'sesame', 'wasabi'
 ]
 
-var allshell = [savoryshell, sweetshell]
+var allshell = [savoryshell+sweetshell]
 
 var ganache = [
   'crunchy cacao nib', 'cinnamon cappuccino with chocolate-cinnamon crunch', 'rose-raspberry', 'chocolate mint',
@@ -39,13 +39,13 @@ var fruit = [
   'blackberry jelly', 'apricot passion pate de fruit', 'strawberry guava pate de fruit', 'pear pate de fruit'
 ]
 
-var allfill = [ganache, creamy, caramel, frozen, fruit]
+var allfill = [ganache+creamy+caramel+frozen+fruit]
 
 function macaron() {
-  var numshell = Math.floor(Math.random() * (sweetshell.length));
-  var numfill = Math.floor(Math.random() * (creamy.length));
-  var shellout = sweetshell[numshell];
-  var fillout = creamy[numfill];
+  var numshell = Math.floor(Math.random() * (allshell.length));
+  var numfill = Math.floor(Math.random() * (allfill.length));
+  var shellout = allshell[numshell];
+  var fillout = allfill[numfill];
   var macout = shellout+" shell with "+fillout;
   document.getElementById('macdisplay').innerHTML = macout;
 }
