@@ -39,12 +39,25 @@ var fruit = [
   'blackberry jelly', 'apricot passion pate de fruit', 'strawberry guava pate de fruit', 'pear pate de fruit'
 ]
 
-var allfill = [ganache+creamy+caramel+frozen+fruit]
+var allfill = [
+  'crunchy cacao nib', 'cinnamon cappuccino with chocolate-cinnamon crunch', 'rose-raspberry', 'chocolate mint',
+  'chocolate tarragon', 'green tea and white chocolate', 'white chocolate grapefruit', 'lemon-star anise', 'chai',
+  'lapsang souchong with whiskey', 'earl grey', 'cassis-white chocolate', 'crunchy hazelnut gianduja', 'peanut gianduja',
+  'vanilla buttercream', 'maple buttercream', 'pistachio buttercream', 'basil buttercream', 'sesame buttercream', 
+  'oatmeal cookie buttercream', 'pumpkin-bourbon buttercream', 'gingerbread buttercream', 'orange cream', 'ginger cream',
+  'pear cream', 'lemon curd', 'key lime curd', 'popcorn pastry cream', 'passion fruit pastry cream', 
+  'cherry-almond pastry cream', 'lemon-almond cream',
+  'fleur de sel caramel', 'rosemary caramel', 'blood orange caramel', 'coconut caramel', 'raspberry- white chocolate caramel',
+  'apricot-ginger-chocolate caramel', 'creamy dark chocolate caramel',
+  'cinnamon apple butter with calvados', 'pumpkin spice butter', 'sour cherry compote', 'ginger honey plum compote',
+  'apricot vanilla jam', 'white peach jam', 'lemon marmalade with campari', 'chile pineapple kumquat marmalade',
+  'blackberry jelly', 'apricot passion pate de fruit', 'strawberry guava pate de fruit', 'pear pate de fruit'
+]
 
 function macaron() {
-  var numshell = Math.floor(Math.random() * (allshell.length));
+  var numshell = Math.floor(Math.random() * (sweetshell.length));
   var numfill = Math.floor(Math.random() * (allfill.length));
-  var shellout = allshell[numshell];
+  var shellout = sweetshell[numshell];
   var fillout = allfill[numfill];
   var macout = shellout+" shell with "+fillout;
   document.getElementById('macdisplay').innerHTML = macout;
