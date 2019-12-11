@@ -49,5 +49,5 @@ function shell() {
   
 function fill() {
   var numfill = Math.floor(Math.random() * (creamy.length));
-  document.getElementById('macdisplay').innerHTML = creamy[numfill);
+  document.getElementById('macdisplay1').innerHTML = creamy[numfill);
 }
