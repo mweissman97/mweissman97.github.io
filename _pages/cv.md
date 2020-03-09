@@ -29,6 +29,13 @@ Other Experience
   * Assisted freshmen in their transition to on-campus living and promoted their positive growth into scholars, citizens, and leaders.
   * Supervisor: Dr. Kara Bauer
   
+Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+ 
+  
 Skills
 ======
 * Computer Programming
