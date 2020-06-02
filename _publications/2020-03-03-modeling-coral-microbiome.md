@@ -2,7 +2,7 @@
 title: "Modeling of the Coral Microbiome: the Influence of Temperature and Microbial Network"
 collection: publications
 permalink: /publication/2020-03-03-modeling-coral-microbiome
-excerpt: "<img src='/images/limaetal20.jpg'>"
+excerpt: "<img src='/images/lima20.jpg'>"
 date: 2020-03-03
 venue: 'mBio'
 paperurl: 'https://mbio.asm.org/content/11/2/e02691-19'
