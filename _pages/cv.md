@@ -15,6 +15,12 @@ Education
   * Minor in Mathematics
 * PhD in Ecology and Evolutionary Biology, Brown University, Expected 2024
 
+Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 Relevant Experience
 ======
 * 2018-2019: Undergraduate Researcher
@@ -29,12 +35,15 @@ Other Experience
   * Assisted freshmen in their transition to on-campus living and promoted their positive growth into scholars, citizens, and leaders.
   * Supervisor: Dr. Kara Bauer
   
-Publications
+Awards, Fellowships, and Certificates
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
- 
+* 2020: NIH Predoctoral Training Program Trainee
+  * PI: Sohini Ramachandran
+  * Brown University
+* 2019: Reflective Teaching Certificate
+  * Sheridan Teaching Center, Brown University
+* 2019: Undergraduate Research Excellence Award
+  * Student Research Symposium, San Diego State University
   
 Skills
 ======
