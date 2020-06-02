@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "<img src='/images/pubsheader.png'>"
 permalink: /publications/
 author_profile: true
 ---
