@@ -6,9 +6,6 @@ main:
   - title: "Research"
     url: /portfolio/
     
-#  - title: "Outreach"
- #   url: /outreach/
-    
   - title: "CV"
     url: /cv/
 
@@ -17,6 +14,9 @@ main:
     
   - title: "Teaching"
     url: /teaching/
+    
+  - title: "Outreach"
+    url: /outreach/
     
 #  - title: "Blog"
  #   url: /year-archive/
