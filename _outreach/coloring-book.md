@@ -1,5 +1,5 @@
 ---
-title: "Coloring Book Pages"
+title: <img src='/images/cb_header.png'>(https://www.instagram.com/delainey_silvestro/)
 excerpt: "Helping kids explore the diversity of STEM careers and research."
 collection: outreach
 ---
