@@ -9,9 +9,9 @@ collection: outreach
 [Volume 1: Smiling Bananas](/files/SB_coloringbook.pdf) is a coloring booklet aimed at introducing STEM careers to kids.
 
 # History
-In 2013, I drew a coloring booklet because I wanted to share my love for science with others. Partnering with local schools, the South Lake Chamber of Commerce, and the Central Florida Down syndrome Association, I was able to distribute over 2,000 physical copies of the first volume.
+In 2013, I drew my first coloring booklet because I wanted to share my love for science with others. Partnering with local schools, the South Lake Chamber of Commerce, and the Down Syndrome Association of Central Florida, I was able to distribute over 2,000 physical copies of the first volume.
 
-It was always my dream to be a scientist, and now I get to do conduct cool research, combining my loves of computer science, mathematics, and biology. I hope to use what I have learned throughout my own journey to inspire the next generation of scientists, communicate ideas in my own research to a larger audience, and be the representation I wished for as kid.
+It was always my dream to be a scientist, and now I have achieved that goal; combining my loves of computer science, mathematics, and biology to research evolution. I hope to use what I have learned throughout my own journey to inspire the next generation of scientists, communicate ideas in my own research to a larger audience, and be the representation I wished for as kid.
 
 # For Educators
 Working with educators from a diverse range of disciplines and locations, these books are developed with the Next Generation Science and Common Core Standards in mind. In addition to providing the books as a free resource, I am happy to speak with classrooms and talk about my research, the coloring book, and my own journey to become a scientist. Please [reach out](mailto:maya_weissman@brown.edu) if you have any questions or requests. I hope that from homeschool to public school, you will find my books both fun and educational.
