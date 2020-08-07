@@ -3,6 +3,17 @@ title: "HIV Pharmacodynamics"
 excerpt: "Modeling pharmacodynamics on HIV latent infection in the face of resistance <br/> <img src='/images/hivheader.png'>"
 collection: portfolio
 ---
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174576010-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174576010-1');
+</script>
+</head>
 
 **Spring 2018 Undergraduate Research Project**
 
