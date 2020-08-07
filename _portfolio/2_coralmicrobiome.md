@@ -3,6 +3,17 @@ title: "Modeling the Coral Reef Microbiome"
 excerpt: "Mathematically modeling microbiome composition as a function of temperature <br/> <img src='/images/coralheader.png'>"
 collection: portfolio
 ---
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174576010-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174576010-1');
+</script>
+</head>
 
 **Spring 2019 Undergraduate Research Project**
 
