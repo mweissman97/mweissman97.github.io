@@ -3,6 +3,18 @@ title: <img src='/images/cb_header.png'>
 excerpt: "Helping kids explore the diversity of STEM careers and research."
 collection: outreach
 ---
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174576010-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174576010-1');
+</script>
+</head>
+
 # Color and Learn!
 [Volume 2: The Coral Microbiome](/files/cb_coralmicrobiome.pdf) teaches kids about the coral reef microbiome, and is inspired by my [undergrad research](http://www.sciencemaya.com/portfolio/2_coralmicrobiome/).
 
