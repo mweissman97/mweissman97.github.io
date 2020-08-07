@@ -3,6 +3,17 @@ title: "Bet-hedging"
 excerpt: "The evolution of bet-hedging <br/> <img src='/images/noiseheader.png'>"
 collection: portfolio
 ---
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174576010-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174576010-1');
+</script>
+</head>
 
 Current work with the [Weinreich Lab](https://www.brown.edu/research/labs/weinreich/population-genetics-modifier-mutations) focuses on the relationship between the evolution of bet-hedging, population size, environmental regime, and geometric mean fitness.
 
