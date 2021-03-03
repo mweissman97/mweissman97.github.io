@@ -1,0 +1,28 @@
+---
+layout: archive
+title: <img src='/images/cb_header.png'>
+permalink: /coloringbooks/
+author_profile: true
+---
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174576010-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174576010-1');
+</script>
+</head>
+
+{% include base_path %}
+
+# History
+In 2013, I drew my first coloring booklet because I wanted to share my love for science with others. Partnering with local schools, the South Lake Chamber of Commerce, and the Down Syndrome Association of Central Florida, I was able to distribute over 2,000 physical copies of the first volume.
+
+It was always my dream to be a scientist, and now I have achieved that goal; combining my loves of computer science, mathematics, and biology to research evolution. I hope to use what I have learned throughout my own journey to inspire the next generation of scientists, communicate ideas in my own research to a larger audience, and be the representation I wished for as kid.
+
+{% for post in site.coloringbooks %}
+  {% include archive-single.html %}
+{% endfor %}
