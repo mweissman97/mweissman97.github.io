@@ -1,6 +1,6 @@
 ---
 title: "The Smiling Bananas"
-excerpt: "<img src='/images/cbheader_bananas.png'> </br> My first coloring book explores the diversity in STEM careers."
+excerpt: "<img src='/images/cbheader_bananas.png'> <br/> My first coloring book explores the diversity in STEM careers."
 collection: outreach
 ---
 <head>
