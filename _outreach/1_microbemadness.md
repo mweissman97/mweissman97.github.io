@@ -1,6 +1,7 @@
 ---
-title: <img src='/images/cbhead_microbe.png'>
-excerpt: "Bacteria, viruses, fungi, pathogens, and more! Made in partnership with the Brown Junior Researchers."
+title: "Microbe Madness"
+excerpt: <img src='/images/cbheader_microbe.png'>
+"Bacteria, viruses, fungi, pathogens, and more! Made in partnership with the Brown Junior Researchers."
 collection: outreach
 ---
 <head>
