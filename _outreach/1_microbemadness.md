@@ -18,6 +18,7 @@ collection: coloringbooks
 [Download here](/files/microbecoloringbook.pdf).
 
 # About the Book
+This book was developed with the [Brown Junior Researchers](https://www.facebook.com/brownjuniorresearchers), a graduate student run orgnaization that aims to connect students and scientists. This book was developed as part of the curriculum for a six week module developed to teach students from grades 4-7 about microbes. This activity book is meant to be accompanied by a series of lectures that culimnate in an experiment where students culture bacteria and are able to test their own hypotheses.  
 
 # For Educators
 Working with educators from a diverse range of disciplines and locations, this books was developed with the Next Generation Science and Common Core Standards in mind. This book was specifically designed to accompany a module developed with the Brown Junior Researchers. If you would like us to come to your classroom and teach this six week module, please [reach out](mailto:maya_weissman@brown.edu). I hope that from homeschool to public school, you will find my books both fun and educational.
