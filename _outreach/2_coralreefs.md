@@ -15,7 +15,7 @@ collection: outreach
 </script>
 </head>
 
-# [Download here](/files/cb_coralmicrobiome.pdf)
+# [Download here!](/files/cb_coralmicrobiome.pdf)
 
 <img src='/images/cbheader_coral.png'>
 
