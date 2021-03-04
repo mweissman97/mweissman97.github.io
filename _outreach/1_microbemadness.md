@@ -1,7 +1,7 @@
 ---
 title: <img src='/images/cbhead_microbe.png'>
 excerpt: "Bacteria, viruses, fungi, pathogens, and more! Made in partnership with the Brown Junior Researchers."
-collection: coloringbooks
+collection: outreach
 ---
 <head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
