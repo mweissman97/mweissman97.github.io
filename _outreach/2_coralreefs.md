@@ -1,6 +1,6 @@
 ---
 title: "The Coral Microbiome"
-excerpt: "<img src='/images/cbheader_coral.png'> </br> What do your stomach and a coral reefs have in common? Learn more about my research on the coral microbiome!"
+excerpt: "<img src='/images/cbheader_coral.png'> <br/> What do your stomach and a coral reefs have in common? Learn more about my research on the coral microbiome!"
 collection: outreach
 ---
 <head>
