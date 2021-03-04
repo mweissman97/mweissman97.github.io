@@ -1,6 +1,6 @@
 ---
-title: <img src='/images/cbhead_bananas.png'>
-excerpt: "My first coloring book explores the diversity in STEM careers."
+title: "The Smiling Bananas"
+excerpt: "<img src='/images/cbheader_bananas.png'> </br> My first coloring book explores the diversity in STEM careers."
 collection: outreach
 ---
 <head>
@@ -15,7 +15,9 @@ collection: outreach
 </script>
 </head>
 
-[Download here](/files/SB_coloringbook.pdf).
+# [Download here!](/files/SB_coloringbook.pdf)
+
+<img src='/images/cbheader_bananas.png'>
 
 # About the Book
 This was my first book ever! I wrote this book because I had a passion for science, and I wanted to share how diverse careers in science and math could be. In partnership with the South Lake Chamber of Commerce, Down Syndrome Association of Central Florida, and numerous local classrooms, I was able to pass out over 2,000 copies of this book while I was still in high school. Now that I am conducting my own research, I'm excited to draw on the science and scientists in my own life for my books.
