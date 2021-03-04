@@ -15,9 +15,9 @@ collection: outreach
 </script>
 </head>
 
-<img src='/images/cbheader_microbe.png'>
+# [Download here!](/files/microbecoloringbook.pdf)
 
-# [Download here](/files/microbecoloringbook.pdf).
+<img src='/images/cbheader_microbe.png'>
 
 # About the Book
 This book was developed with the [Brown Junior Researchers](https://www.facebook.com/brownjuniorresearchers), a graduate student run orgnaization that aims to connect students and scientists. This book was developed as part of the curriculum for a six week module developed to teach students from grades 4-7 about microbes. This activity book is meant to be accompanied by a series of lectures that culimnate in an experiment where students culture bacteria and are able to test their own hypotheses.  
