@@ -1,6 +1,6 @@
 ---
-title: <img src='/images/cbhead_coral.png'>
-excerpt: "What do your stomach and a coral reefs have in common? Learn more about my research on the coral microbiome!"
+title: "The Coral Microbiome"
+excerpt: "<img src='/images/cbheader_coral.png'> </br> What do your stomach and a coral reefs have in common? Learn more about my research on the coral microbiome!"
 collection: outreach
 ---
 <head>
@@ -15,7 +15,9 @@ collection: outreach
 </script>
 </head>
 
-[Download here](/files/cb_coralmicrobiome.pdf).
+# [Download here](/files/cb_coralmicrobiome.pdf)
+
+<img src='/images/cbheader_coral.png'>
 
 # About the Book
 This book is about my Undergraduate Thesis Research on [the coral reef microbiome](https://www.sciencemaya.com/portfolio/2_coralmicrobiome/). This book teaches students about the relationship between coral and the microbes that live on them, the differences between different reef zones, and the effect of temperature on coral reef health.
