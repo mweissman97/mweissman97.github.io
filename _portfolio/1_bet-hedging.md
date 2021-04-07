@@ -1,6 +1,6 @@
 ---
-title: "Bet-hedging"
-excerpt: "The evolution of bet-hedging <br/> <img src='/images/noiseheader.png'>"
+title: "Bet Hedging"
+excerpt: "<img src='/images/researchheaders_bet hedge.png'> <br/> PhD thesis research with the Brown Weinreich Lab on modeling the evolution of bet hedging in a stochastic framework."
 collection: portfolio
 ---
 <head>
@@ -14,6 +14,10 @@ collection: portfolio
   gtag('config', 'UA-174576010-1');
 </script>
 </head>
+
+<img src='/images/researchheaders_bethedge.png'>
+
+**Graduate Thesis Research**
 
 Current work with the [Weinreich Lab](https://www.brown.edu/research/labs/weinreich/population-genetics-modifier-mutations) focuses on the relationship between the evolution of bet-hedging, population size, environmental regime, and geometric mean fitness.
 
