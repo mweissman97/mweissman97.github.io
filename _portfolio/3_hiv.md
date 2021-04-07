@@ -1,6 +1,6 @@
 ---
 title: "HIV Pharmacodynamics"
-excerpt: "Modeling pharmacodynamics on HIV latent infection in the face of resistance <br/> <img src='/images/hivheader.png'>"
+excerpt: "<img src='/images/researchheaders_hiv.png'> <br/> Undergraduate research with the SDSU DiMoLab studying the effect of pharmacodynamics on HIV resistance and latent infection."
 collection: portfolio
 ---
 <head>
@@ -14,6 +14,8 @@ collection: portfolio
   gtag('config', 'UA-174576010-1');
 </script>
 </head>
+
+<img src='/images/researchheaders_hiv.png'>
 
 **Spring 2018 Undergraduate Research Project**
 
