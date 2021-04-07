@@ -1,6 +1,6 @@
 ---
 title: "Bet Hedging"
-excerpt: "<img src='/images/researchheaders_bet hedge.png'> <br/> PhD thesis research with the Brown Weinreich Lab on modeling the evolution of bet hedging in a stochastic framework."
+excerpt: "<img src='/images/researchheaders_bethedge.png'> <br/> PhD thesis research with the Brown Weinreich Lab on modeling the evolution of bet hedging in a stochastic framework."
 collection: portfolio
 ---
 <head>
