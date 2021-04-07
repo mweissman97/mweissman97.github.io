@@ -1,5 +1,5 @@
 ---
-title: "HIV Pharmacodynamics"
+title: "Coral Microbiome"
 excerpt: "<img src='/images/researchheaders_coral.png'> <br/> Undergraduate research with the SDSU DiMoLab mathematically modeling microbiome composition as a function of temperature."
 collection: portfolio
 ---
