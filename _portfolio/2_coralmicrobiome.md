@@ -1,6 +1,6 @@
 ---
-title: "Modeling the Coral Reef Microbiome"
-excerpt: "Mathematically modeling microbiome composition as a function of temperature <br/> <img src='/images/coralheader.png'>"
+title: "HIV Pharmacodynamics"
+excerpt: "<img src='/images/researchheaders_coral.png'> <br/> Undergraduate research with the SDSU DiMoLab mathematically modeling microbiome composition as a function of temperature."
 collection: portfolio
 ---
 <head>
@@ -14,6 +14,8 @@ collection: portfolio
   gtag('config', 'UA-174576010-1');
 </script>
 </head>
+
+<img src='/images/researchheaders_coral.png'>
 
 **Spring 2019 Undergraduate Research Project**
 
