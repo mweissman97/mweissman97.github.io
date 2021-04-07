@@ -48,6 +48,7 @@ Other Experience
   
 Awards, Fellowships, and Certificates
 ======
+* 2020: NSF Graduate Research Fellowship Program Honorable Mention
 * 2020: NIH Predoctoral Training Program Trainee
   * PI: Sohini Ramachandran
   * Brown University
