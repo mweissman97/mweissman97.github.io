@@ -31,20 +31,6 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-Relevant Experience
-======
-* 2018-2019: Undergraduate Researcher
-  * San Diego State University
-  * Independently worked on mathematically modeling HIV dynamics as well as the coral reef microbiome.
-  * Supervisor: Professor Naveen Vaidya
-  
-Other Experience
-======
-* 2016-2019: Resident Advisor
-  * San Diego State University
-  * Assisted freshmen in their transition to on-campus living and promoted their positive growth into scholars, citizens, and leaders.
-  * Supervisor: Dr. Kara Bauer
   
 Awards, Fellowships, and Certificates
 ======
@@ -81,3 +67,16 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
  
+Relevant Experience
+======
+* 2018-2019: Undergraduate Researcher
+  * San Diego State University
+  * Independently worked on mathematically modeling HIV dynamics as well as the coral reef microbiome.
+  * Supervisor: Professor Naveen Vaidya
+  
+Other Experience
+======
+* 2016-2019: Resident Advisor
+  * San Diego State University
+  * Assisted freshmen in their transition to on-campus living and promoted their positive growth into scholars, citizens, and leaders.
+  * Supervisor: Dr. Kara Bauer
