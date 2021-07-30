@@ -35,7 +35,7 @@ Publications
 Awards, Fellowships, and Certificates
 ======
 * 2020: NSF Graduate Research Fellowship Program Honorable Mention
-* 2020: NIH Predoctoral Training Program Trainee
+* 2020-2022: NIH Predoctoral Training Program Trainee
   * PI: Sohini Ramachandran
   * Brown University
 * 2019: Reflective Teaching Certificate
@@ -46,6 +46,7 @@ Awards, Fellowships, and Certificates
 Skills
 ======
 * Computer Programming
+  * Julia
   * MatLab
   * Python
   * Unix
