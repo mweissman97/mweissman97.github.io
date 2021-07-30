@@ -18,6 +18,6 @@ redirect_from:
   gtag('config', 'UA-174576010-1');
 </script>
 </head>
-I am a computational biologist and PhD student in the [Weinreich Lab](https://www.brown.edu/research/labs/weinreich/). 
+I am a computational biologist and PhD candidate in the [Weinreich Lab](https://www.brown.edu/research/labs/weinreich/). 
 
-I am broadly interested in using mathematical and biological toolsets in order to explore questions of evolution. My research is on evolvability, bet-hedging, phenotypic noise, sign inversion, and modifiers of the fidelity of genetic information transmission.
+I am broadly interested in using mathematical and biological toolsets in order to explore questions of evolution. My research is on the evolution of bet hedging, a widespread strategy to reduce risk in the face of unpredictable environmental change. Mathematically, bet hedging is when a lineage lowers its fitness variance at the expense of also lowering mean fitness across environments. I aim to investigate the ways in which randomness in reproduction and environment defy our expectations, and determine the extent to which bet hedging is a "good bet." 
