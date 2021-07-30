@@ -1,6 +1,6 @@
 ---
 title: "Ecology Explorers"
-excerpt: "<img src='/images/cbheader_ecology.png'> <br/> Explore how organisms interact with each other and their environment! Made in partnership with the Brown Junior Researchers."
+excerpt: "<img src='/images/cbheader_ecology.png'> <br/> Explore how organisms interact with each other and their environment and conduct an experiment using a Field Notebook."
 collection: outreach
 ---
 <head>
@@ -15,12 +15,12 @@ collection: outreach
 </script>
 </head>
 
-# [Download here!](/files/ecologyexplorersbook.pdf)
+# [Download here!](/files/ecologycoloringbook.pdf)
 
 <img src='/images/cbheader_ecology.png'>
 
 # About the Book
-This book was developed with the [Brown Junior Researchers](https://www.facebook.com/brownjuniorresearchers), a graduate student run orgnaization that aims to connect students and scientists. This book was developed as part of the curriculum for a seven week module developed to teach students from grades 4-7 about ecology. This activity book is meant to be accompanied by a series of lectures, as well as a long running experiment where students are prompted to form their own ecological question and hypothesis, design their own field experiment, carry out their field experiment by taking notes in the second half of this coloring book, and then draw conclusions based on their observations.
+This book was originally conceived with help from the [Brown Junior Researchers](https://www.facebook.com/brownjuniorresearchers), a graduate student run orgnaization that aims to connect students and scientists. This book explores basic concepts in ecology before guiding students through using the Scientific Method to design their own field experiment. The final half of this book is designed to act as a Field Notebook, encouraging students to ask an ecology questions and observe nature to answer. Accompanied by a trusted adult, students are recommended to spend a few hours in nature every week collecting data.
 
 # For Educators
 Working with educators from a diverse range of disciplines and locations, this books was developed with the Next Generation Science and Common Core Standards in mind. This book was specifically designed to accompany a module developed with the Brown Junior Researchers. If you would like us to come to your classroom and teach this six week module, please [reach out](mailto:maya_weissman@brown.edu). I hope that from homeschool to public school, you will find my books both fun and educational.
