@@ -15,7 +15,7 @@ collection: outreach
 </script>
 </head>
 
-# [Download here!](/files/cb_coralmicrobiome.pdf)
+# [Download here!](/files/coralcoloringbook.pdf)
 
 <img src='/images/cbheader_coral.png'>
 
@@ -35,7 +35,6 @@ This coloring book meets the following Next Generation Science Standards:
 * LS4.3: Construct an argument with evidence that in a particular habitat some organisms can survive well, some survive less well, and some cannot survive at all.
 * LS4.4: Make a claim about the merit of a solution to a problem caused when the environment changes and the types of plants and animals that live there may change.
 * ESS2.2: Obtain and combine information to describe climates in different regions of the world.
-* 
 
 And the following English Language Arts Common Core Standards:
 * 5.2: Determine two or more main ideas of a text and explain how they are supported by key details; summarize the text.
