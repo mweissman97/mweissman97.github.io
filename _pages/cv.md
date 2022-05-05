@@ -24,7 +24,8 @@ Education
 ======
 * B.S. in Cellular and Molecular Biology, San Diego State University, 2019
   * Minor in Mathematics
-* PhD in Ecology and Evolutionary Biology, Brown University, Expected 2024
+* M.S. in Ecology, Evolutionary, and Organismal Biology, Brown University, 2022
+* Ph.D. in Ecology and Evolutionary Biology, Brown University, Expected 2024
 
 Publications
 ======
@@ -34,6 +35,9 @@ Publications
   
 Awards, Fellowships, and Certificates
 ======
+* 2022: Brown Doctoral Dissertation Enhancement Grant Recipient
+* 2021: Teaching Consult Fellow
+  * Sheridan Teaching Center, Brown University
 * 2020: NSF Graduate Research Fellowship Program Honorable Mention
 * 2020-2022: NIH Predoctoral Training Program Trainee
   * PI: Sohini Ramachandran
@@ -51,6 +55,7 @@ Skills
   * Python
   * Unix
   * R
+* Scientific Illustration
 * Wet Lab Techniques
 * Public Speaking
 * Creative Problem Solving
@@ -67,16 +72,16 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
- 
-Relevant Experience
+  
+Other Experience
 ======
+* 2021-2022: Graduate Student Association President
+  * Brown University
+  * Served as the liaison between faculty and graduate students for the EEOB Department.
 * 2018-2019: Undergraduate Researcher
   * San Diego State University
   * Independently worked on mathematically modeling HIV dynamics as well as the coral reef microbiome.
   * Supervisor: Professor Naveen Vaidya
-  
-Other Experience
-======
 * 2016-2019: Resident Advisor
   * San Diego State University
   * Assisted freshmen in their transition to on-campus living and promoted their positive growth into scholars, citizens, and leaders.
