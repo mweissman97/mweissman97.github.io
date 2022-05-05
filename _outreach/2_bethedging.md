@@ -1,5 +1,5 @@
 ---
-title: "Bet hedging"
+title: "Bet Hedging"
 excerpt: "<img src='/images/cbhead_bethedge.png'> <br/> Plants, animals, and microbes all use bet hedging to survive unpredictable environmental change. Learn more about my PhD thesis research on the evolution of bet hedging!"
 collection: outreach
 ---
