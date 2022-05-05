@@ -1,6 +1,6 @@
 ---
 title: "Bet hedging"
-excerpt: "<img src='/images/cbheader_bethedge.png'> <br/> Plants, animals, and microbes all use bet hedging to survive unpredictable environmental change. Learn more about my PhD thesis research on the evolution of bet hedging!"
+excerpt: "<img src='/images/cbhead_bethedge.png'> <br/> Plants, animals, and microbes all use bet hedging to survive unpredictable environmental change. Learn more about my PhD thesis research on the evolution of bet hedging!"
 collection: outreach
 ---
 <head>
@@ -17,7 +17,7 @@ collection: outreach
 
 # [Download here!](/files/bethedgingcoloringbook.pdf)
 
-<img src='/images/cbheader_bethedge.png'>
+<img src='/images/cbhead_bethedge.png'>
 
 # About the Book
 This book is about my PhD Thesis Research on [the evolution of bet hedging](https://www.sciencemaya.com/portfolio/1_bethedging/). This book teaches students what bet hedging is and why it evolves. Bet hedging is a type of adaptation for reducing risk and increasing survival in the face of unpredictable environmental change. Students will learn what bet hedging is, the difference between conservative and diversified bet hedging strategies, and be introduced to examples of bet hedging in nature.  
