@@ -20,7 +20,7 @@ collection: outreach
 <img src='/images/cbhead_bethedge.png'>
 
 # About the Book
-This book is about my PhD Thesis Research on [the evolution of bet hedging](https://www.sciencemaya.com/portfolio/1_bethedging/). This book teaches students what bet hedging is and why it evolves. Bet hedging is a type of adaptation for reducing risk and increasing survival in the face of unpredictable environmental change. Students will learn what bet hedging is, the difference between conservative and diversified bet hedging strategies, and be introduced to examples of bet hedging in nature.  
+This book is about my PhD Thesis Research on [the evolution of bet hedging](https://www.sciencemaya.com/portfolio/1_bet-hedging/). This book teaches students what bet hedging is and why it evolves. Bet hedging is a type of adaptation for reducing risk and increasing survival in the face of unpredictable environmental change. Students will learn what bet hedging is, the difference between conservative and diversified bet hedging strategies, and be introduced to examples of bet hedging in nature.  
 
 # For Educators
 Working with educators from a diverse range of disciplines and locations, this books was developed with the Next Generation Science and Common Core Standards in mind. In addition to providing the books as a free resource, I am happy to speak with classrooms and talk about my research, the coloring book, and my own journey to become a scientist. Please [reach out](mailto:maya_weissman@brown.edu) if you have any questions or requests. I hope that from homeschool to public school, you will find my books both fun and educational.
