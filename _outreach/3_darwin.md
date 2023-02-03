@@ -1,6 +1,6 @@
 ---
 title: "Darwin Day"
-excerpt: "<img src='/images/cbheader_ecology.png'> <br/> Learn about Charles Darwin, one of the fathers of the modern evolutionary synthesis."
+excerpt: "<img src='/images/cbheader_darwin.png'> <br/> Learn about Charles Darwin, one of the fathers of the modern evolutionary synthesis."
 collection: outreach
 ---
 <head>
