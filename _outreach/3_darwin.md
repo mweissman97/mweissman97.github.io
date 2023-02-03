@@ -15,7 +15,7 @@ collection: outreach
 </script>
 </head>
 
-# [Download here!](/files/darwindasy_coloringbook.pdf)
+# [Download here!](/files/darwinday_coloringbook.pdf)
 
 <img src='/images/cbheader_darwin.png'>
 
