@@ -17,3 +17,22 @@ $(document).ready(function() {
     });
 
 });
+
+var red_alerts = [
+    "Unknown vessel approaching",
+    "Potential radiation exposure",
+    "Klingon bird of prey decloaking",
+    "Warp Core breach imminent",
+    "Self destruct commenced",
+    "Rogue hologram taking prisoners",
+    "Rogue android stealing the ship"
+    ];
+
+
+var randomDiv = document.getElementById("red_alert");
+
+    document.getElementById("red_alert_button").addEventListener("click", function() {
+          randomIndex = Math.ceil((Math.random()*red_alerts.length-1));
+          newText = red_alerts[randomIndex];
+          randomDiv.innerHTML = newText;
+    });
