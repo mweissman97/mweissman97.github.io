@@ -31,7 +31,7 @@
 					</div> 
 				</div> 
 				<div class="button-col">
-					<div class="button" id="top-left"><a href="">01</a></div>
+					<div class="button" id="top-left"><a href="#myModal">01</a></div>
 					<div class="button" id="bottom-left"><a href="">02</a></div>
 				</div>
 				<div class="button-col">
@@ -117,6 +117,46 @@
 
 			<script>
 // Get the modal
+document.getElementById("top-left").onclick = function() {
+    var phrases = [
+        "Unknown vessel approaching",
+	"Potential radiation exposure",
+	"Klingon bird of prey decloaking",
+	"Romulan warbird recloaking",
+	"XO turned into god",
+	"Andorians and Vulcans fighting again",
+	"Time to resist the Borg again",
+	"Q is up to something",
+	"Apologies, a most confounding thing, it appears everyone is singing",
+	"An evil admiral wants us to violate the Prime Directive",
+	"An evil admiral won't let us violate the Prime Directive even though we really want to",
+	"Future version of the captain onboard",
+	"Evil twin of crewmember trying to take over",
+	"Warp Core breach imminent",
+	"Self destruct commenced",
+	"Rogue hologram taking prisoners",
+	"Rogue android stealing the ship"
+    ];
+
+    var randomPhrase = phrases[Math.floor(Math.random() * phrases.length)];
+    document.getElementById("modalText").innerText = randomPhrase;
+
+    var modal = document.getElementById("myModal");
+    var span = document.getElementsByClassName("close")[0];
+
+    modal.style.display = "block";
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+}
+				
 document.getElementById("openModalBtn").onclick = function() {
     var phrases = [
         "Unknown vessel approaching",
@@ -131,7 +171,11 @@ document.getElementById("openModalBtn").onclick = function() {
 	"An evil admiral wants us to violate the Prime Directive",
 	"An evil admiral won't let us violate the Prime Directive even though we really want to",
 	"Future version of the captain onboard",
-	"Evil twin of crewmember trying to take over"
+	"Evil twin of crewmember trying to take over",
+	"Warp Core breach imminent",
+	"Self destruct commenced",
+	"Rogue hologram taking prisoners",
+	"Rogue android stealing the ship"
     ];
 
     var randomPhrase = phrases[Math.floor(Math.random() * phrases.length)];
