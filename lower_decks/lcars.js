@@ -18,47 +18,44 @@ $(document).ready(function() {
 
 });
 
-var red_alerts = [
-    "Unknown vessel approaching",
-    "Potential radiation exposure",
-    "Klingon bird of prey decloaking",
-    "Warp Core breach imminent",
-    "Self destruct commenced",
-    "Rogue hologram taking prisoners",
-    "Rogue android stealing the ship"
+document.getElementById("openModalBtn").onclick = function() {
+    var phrases = [
+        "Unknown vessel approaching",
+        "Potential radiation exposure",
+        "Klingon bird of prey decloaking",
+        "Romulan warbird recloaking",
+        "XO turned into god",
+        "Andorians and Vulcans fighting again",
+        "Time to resist the Borg again",
+        "Q is up to something"
+        "Apologies, the most confounding thing, we appear to be singing",
+        "An evil admiral wants us to violate the Prime Directive",
+        "An evil admiral won't let us violate the Prime Directive even though we really want to",
+        "Future version of the captain onboard",
+        "Evil twin of crewmember trying to take over"
+        "Warp Core breach imminent",
+        "Self destruct commenced",
+        "Rogue hologram taking prisoners",
+        "Rogue android stealing the ship",
+        "Tachyon anomaly ahead",
+        "Orion Pirates plundering ahead"
     ];
 
+    var randomPhrase = phrases[Math.floor(Math.random() * phrases.length)];
+    document.getElementById("modalText").innerText = randomPhrase;
 
-//var randomDiv = document.getElementById("red_alert");
+    var modal = document.getElementById("myModal");
+    var span = document.getElementsByClassName("close")[0];
 
-//    document.getElementById("red_alert_button").addEventListener("click", function() {
- //         randomIndex = Math.ceil((Math.random()*red_alerts.length-1));
- //         newText = red_alerts[randomIndex];
-  //        randomDiv.innerHTML = newText;
-//    });
+    modal.style.display = "block";
 
-// Get the modal
-var modal = document.getElementById("myModal");
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
 }
