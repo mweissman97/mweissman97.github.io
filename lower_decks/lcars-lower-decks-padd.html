@@ -114,6 +114,40 @@
    				</div>
 				</div>
 			</div>
+
+			<script>
+// Get the modal
+document.getElementById("openModalBtn").onclick = function() {
+    var phrases = [
+        "Unknown vessel approaching",
+        "Potential radiation exposure",
+        "Klingon bird of prey decloaking",
+        "Warp Core breach imminent",
+        "Self destruct commenced",
+        "Rogue hologram taking prisoners",
+        "Rogue android stealing the ship"
+    ];
+
+    var randomPhrase = phrases[Math.floor(Math.random() * phrases.length)];
+    document.getElementById("modalText").innerText = randomPhrase;
+
+    var modal = document.getElementById("myModal");
+    var span = document.getElementsByClassName("close")[0];
+
+    modal.style.display = "block";
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+}
+
+</script>
 			
 			<h2>Assignments</h2>
 			<input type="checkbox" name="assignment" value="eps" id="eps">
