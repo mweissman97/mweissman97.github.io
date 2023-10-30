@@ -29,14 +29,18 @@ var red_alerts = [
     ];
 
 
-var randomDiv = document.getElementById("red_alert");
+//var randomDiv = document.getElementById("red_alert");
 
-    document.getElementById("red_alert_button").addEventListener("click", function() {
-          randomIndex = Math.ceil((Math.random()*red_alerts.length-1));
-          newText = red_alerts[randomIndex];
-          randomDiv.innerHTML = newText;
-    });
+//    document.getElementById("red_alert_button").addEventListener("click", function() {
+ //         randomIndex = Math.ceil((Math.random()*red_alerts.length-1));
+ //         newText = red_alerts[randomIndex];
+  //        randomDiv.innerHTML = newText;
+//    });
 
+var modal = document.getElementById("red_alert");
+
+// Get the button that opens the modal
+var btn = document.getElementById("red_alert_button");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
