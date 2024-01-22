@@ -1,6 +1,6 @@
 ---
-title: "Coral Microbiome"
-excerpt: "<img src='/images/researchheaders_coral.png'> <br/> Undergraduate research with the SDSU DiMoLab mathematically modeling microbiome composition as a function of temperature."
+title: "Undergraduate Research"
+excerpt: "<img src='/images/researchheaders_coral.png'> <br/> Undergraduate research with the SDSU DiMoLab mathematically modeling disease dynamics in HIV and coral reef black band disease."
 collection: portfolio
 ---
 <head>
@@ -26,3 +26,16 @@ First, we investigated whether temperature drove differences in composition betw
 Next, we investigated the effect of changing temperatures on microbiome composition. As temperature profiles strayed further from the "normal" base case, we saw large changes to microbiome composition. Certain temperature conditions can also confer greater susceptibility to black band disease as a result of the peturbations to the microbiome composition.
 
 This research was presented at the SDSU Student Research Symposium, where it won the [Undergraduate Research Excellence Award](https://research.sdsu.edu/research_affairs/student_research_symposium/2019%20Student%20Research%20Symposium%20Award%20Recipients%20Website.pdf), the research showcase for the [Inauguration of President Adela de la Torre](https://newscenter.sdsu.edu/sdsu_newscenter/news_story.aspx?sid=77584), and the [SIAM Southern California Applied Mathematics Symposium (SOCAMS)](https://www.siam.org/membership/sections/detail/siam-southern-california-section).
+
+<img src='/images/researchheaders_hiv.png'>
+
+**Spring 2018 Undergraduate Research Project**
+
+Over 36 million people around the globe live with HIV, yet there is no cure. Two of the most daunting obstacles to curing HIV are the establishment of HIV reservoirs in the form of latently infected cells that are unaffected by current methods of treatment and the ability of virus to acquire antiretroviral treatment (ART) resistance through mutation. Previous work done by the [SDSU DiMoLab](https://nvaidya.sdsu.edu/research.html) have shown the potential eradication of HIV by initiation of therapy early in infection, but the ART resistance issue on the latent infection has not been addressed. 
+
+We developed a mathematical model to investigate the effects of several drug-related parameters on controlling latently infected cells in the face of ART resistance. The model took into account various pharmacodynamics properties, including the slope of the dose-response curve, the ratio of maximum dosage to 50% inhibitory concentration, the drug’s half-life, and the dosing interval. Parameters were estimated using data from HIV infected individuals under early treatment, and from in vitro studies of ART efficacy to control sensitive and resistance viruses.  
+
+The model predicted that ART pharmacodynamics highly affect the dynamics of both viral species as well as latently infected cells.  Our results showed that the success of the treatment, in both minimizing a latent reservoir and avoiding ART resistance, is reliant on early treatment using a regimen with a good pharmacodynamics profile.
+
+This research was presented at the [San Diego State Research Symposium](https://youtu.be/ICichK2-15c).
+
