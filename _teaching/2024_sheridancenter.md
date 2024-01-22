@@ -7,7 +7,7 @@ venue: "Brown University"
 date: 2024-09-01
 location: "Providence, Rhode Island"
 ---
-[The Sheridan Center]{https://www.brown.edu/sheridan/about} seeks to improve educational excellence, equity and access at Brown through evidence-based, reflective practices. 
+[The Sheridan Center](https://www.brown.edu/sheridan/about) seeks to improve educational excellence, equity and access at Brown through evidence-based, reflective practices.
 
 ## Head Teaching Consultant
 # 2023 - 2024
