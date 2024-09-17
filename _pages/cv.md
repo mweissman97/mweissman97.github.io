@@ -49,17 +49,9 @@ Awards, Fellowships, and Certificates
   
 Skills
 ======
-* Computer Programming
-  * Julia
-  * MatLab
-  * Python
-  * Unix
-  * R
-* Scientific Illustration
-* Wet Lab Techniques
-* Public Speaking
-* Creative Problem Solving
-* Conflict Resolution
+* Programming languages: Julia, R, MATLAB, Python, Unix/BASH, LaTeX, Git, Cluster Computing
+* Research areas: population genetics, stochastic individual-based models, biogeography, data science, conservation genomics, Markov matrix models, creating/managing large scale datasets, differential equations, infectious diseases
+* Other skills: inclusive pedagogy, university lecturing, scientific illustration
 
 Talks
 ======
