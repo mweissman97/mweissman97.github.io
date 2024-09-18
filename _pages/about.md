@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /about
+permalink: /
 title: <img src='/images/about.png'>
 author_profile: true
 redirect_from: 
