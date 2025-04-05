@@ -25,3 +25,6 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
 end
+
+# (maybe) avoids a bug in the github pages build. github.com/ffi/ffi/issues/1103
+gem "ffi", "< 1.17.0"
